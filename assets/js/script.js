@@ -5,14 +5,18 @@ var percentage = document.querySelector(".percentage");
 var smallGlass = document.querySelectorAll(".small-glasses");
 console.log(smallGlass);
 
-smallGlass.forEach(function(list,index){
-    
-    list.addEventListener('click',function(){
+smallGlass.forEach(function (list, index) {
+
+    list.addEventListener('click', function () {
         console.log(list);
-    console.log(index);
-        for(var i=0; i<=index; i++){
+        console.log(index);
+        for (var i = 0; i <= index; i++) {
             console.log(smallGlass[i]);
             smallGlass[i].classList.add('color');
+        }
+        for (var i = index + 1; i <= 7; i++) {
+            console.log(smallGlass[i]);
+            smallGlass[i].classList.remove('color');
         }
     })
 })
