@@ -199,9 +199,10 @@ span:nth-of-type(1) { margin-bottom: 5px; }
 .percentage {
   display: inline-block;
   width: 100%;
-  text-align: center;
+  border-radius: 0px 0px 25px 25px;
   position: absolute;
   bottom: 0px;
+  text-align: center;
   background-color: #89CFF0;
   visibility: hidden;
 }
