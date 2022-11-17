@@ -146,11 +146,11 @@ span:nth-of-type(2) { text-transform: capitalize; }
   min-height: 200px;
   margin-bottom: 20px;
   position: relative;
-  background-color: #fff;
   border: 2px solid #0047AB;
   border-radius: 0px 0px 25px 25px;
   display: flex;
   align-items: center;
+  background-color: #fff;
   flex-direction: column;
   justify-content: center;
 }
@@ -200,10 +200,10 @@ span:nth-of-type(2) { text-transform: capitalize; }
   border-radius: 0px 0px 25px 25px;
   position: absolute;
   bottom: 0px;
-  justify-content: center;
   align-items: center;
-  text-align: center;
   background-color: #89CFF0;
+  justify-content: center;
+  text-align: center;
   visibility: hidden;
 }
 
@@ -211,12 +211,12 @@ span:nth-of-type(2) { text-transform: capitalize; }
 .color { background-color: #89CFF0; }
 
 .reminder {
+  display: flex;
   position: absolute;
   top: 80px;
-  display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
 }
 /*=================================
   main styling ends here
