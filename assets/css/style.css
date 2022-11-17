@@ -124,7 +124,10 @@ li {
 /*=================================
   main styling starts here
 =================================*/
-main { background-color: #0096FF; }
+main { 
+  min-height: 100vh;
+  background-color: #0096FF;
+ }
 
 .wrapper {
   padding: 20px 0;
