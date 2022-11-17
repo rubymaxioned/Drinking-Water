@@ -176,8 +176,6 @@ span:nth-of-type(2) { text-transform: capitalize; }
   text-align: center;
 }
 
-span:nth-of-type(1) { margin-bottom: 5px; }
-
 .wrapper > span:nth-of-type(2) { 
   margin-bottom: 25px;
   color: #89CFF0;
@@ -213,6 +211,8 @@ span:nth-of-type(1) { margin-bottom: 5px; }
 .color { background-color: #89CFF0; }
 
 .reminder {
+  position: absolute;
+  top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
